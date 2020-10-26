@@ -1,0 +1,50 @@
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
+#text-input {   
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    background-color: lightblue;
+    z-index: 100;
+}
+#text-output {
+    position : relative; bottom:0;
+}
+#send-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 14px;
+}
+#question {
+    border-radius: 20px;
+    border: none;
+    width: calc(50% - 60px) !important;
+    font-size: 14px;
+}
+
+
+#chatbot-container {
+    position: relative;
+    bottom: 0px;
+}
+
+.response {
+    text-align: right;
+    width: 100%;
+}
+
+.response-text {
+    background-color: lightgrey; 
+    border-radius: 20px;
+}
+
+.question {
+    text-align: left;
+    width: 100%;
+}
+
+.question-text {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
