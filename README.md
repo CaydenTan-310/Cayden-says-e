@@ -1,4 +1,4 @@
-# Cayden's chatbot
+# Math chatbot
 
 ## Description
 Math chatbot that provides formulae for students.
